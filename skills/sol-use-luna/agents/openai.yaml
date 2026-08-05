@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sol协作Luna"
+  short_description: "组织Sol主任务与Luna独立任务协作，审核和中间产物管理"
+  default_prompt: "使用 $sol-use-luna 组织主任务与Luna独立任务，并审核差异和中间产物状态。"

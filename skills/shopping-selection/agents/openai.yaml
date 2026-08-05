@@ -1,0 +1,4 @@
+interface:
+  display_name: "选购"
+  short_description: "跨平台去重采样、商品比价、质量评估、截图引用和证据归档"
+  default_prompt: "使用 $shopping-selection 帮我完成跨平台商品选购、去重比价和证据归档。"
