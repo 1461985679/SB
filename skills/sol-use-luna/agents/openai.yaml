@@ -1,4 +1,4 @@
 interface:
-  display_name: "Sol协作Luna"
-  short_description: "组织Sol主任务与Luna独立任务协作，审核和中间产物管理"
-  default_prompt: "使用 $sol-use-luna 组织主任务与Luna独立任务，并审核差异和中间产物状态。"
+  display_name: "合作"
+  short_description: "管理丞相与Luna的通用模型合作及阶段结论记录方法"
+  default_prompt: "请按 $丞相 技能组织丞相与Luna的通用协作，确认同一项目目录，记录阶段性结论，审核差异和测试，并等待圣上确认后归档中间产物。"
