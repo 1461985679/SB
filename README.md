@@ -7,7 +7,7 @@ SkillBureau，简称 SB，是一个用于集中保存个人 Codex 技能的 GitH
 | 技能 | 用途 | 许可证 |
 |---|---|---|
 | `shopping-selection` | 系统化完成商品选购，比价，质量评估和证据归档 | Apache License 2.0 |
-| `sol-use-luna` | 组织 sol 主任务与 Luna 独立任务，审核差异和中间产物 | Apache License 2.0 |
+| `Go³` | 组织主代理与 Luna 的多模型协作，审核差异和中间产物 | Apache License 2.0 |
 | `karpathy-guidelines` | 减少 LLM 编码中的过度设计，范围漂移和验证不足 | MIT |
 
 ## 目录
@@ -16,7 +16,7 @@ SkillBureau，简称 SB，是一个用于集中保存个人 Codex 技能的 GitH
 SkillBureau
 ├── skills
 │   ├── shopping-selection
-│   ├── sol-use-luna
+│   ├── GoGoGo
 │   └── karpathy-guidelines
 ├── LICENSE
 ├── NOTICE
@@ -29,7 +29,7 @@ SkillBureau
 从本地仓库根目录执行下面的命令，可以把三个技能复制到 Codex 的个人技能目录。
 
 ```powershell
-$skillNames = @("shopping-selection", "sol-use-luna", "karpathy-guidelines")
+$skillNames = @("shopping-selection", "GoGoGo", "karpathy-guidelines")
 foreach ($skillName in $skillNames) {
     Copy-Item -Recurse -LiteralPath ".\skills\$skillName" -Destination "$env:CODEX_HOME\skills\$skillName"
 }
