@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go³"
+  short_description: "管理Luna回退，中间产物文件和需求提问完整保底机制"
+  default_prompt: "请按 $Go³ 技能优先使用最高能力Luna智能体处理分支，失败时回退到最高能力Luna新聊天，使用新聊天或项目固定目录保存中间产物，并把必须由用户回答，授权或亲自操作的阻塞事项单独标记为需求提问。"

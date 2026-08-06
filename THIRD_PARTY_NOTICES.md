@@ -2,7 +2,7 @@
 
 ## Karpathy Guidelines
 
-`skills/karpathy-guidelines` is redistributed under the MIT License.
+`third-party/karpathy-guidelines` is redistributed under the MIT License.
 
 - Upstream project，`andrej-karpathy-skills`
 - Upstream repository，https://github.com/multica-ai/andrej-karpathy-skills

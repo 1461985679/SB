@@ -1,0 +1,20 @@
+{
+  "name": "skillbureau",
+  "interface": {
+    "displayName": "SkillBureau"
+  },
+  "plugins": [
+    {
+      "name": "skillbureau",
+      "source": {
+        "source": "local",
+        "path": "./plugins/skillbureau"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
