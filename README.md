@@ -45,13 +45,13 @@ foreach ($skillName in $skillNames) {
 
 ## 市场安装
 
-圣上需要先在本机完成 GitHub 访问认证，再使用 Codex CLI 注册市场。
+使用者需要先在本机完成 GitHub 访问认证，再使用 Codex CLI 注册市场。
 
 ```powershell
 codex plugin marketplace add 1461985679/SB --ref main
 codex plugin marketplace list
 ```
 
-注册市场后，圣上可以重启 Codex 桌面应用，在 Plugins Directory 中选择 SkillBureau 并安装。安装完成后，新建对话，Codex 才会加载插件内的 shopping-selection 和 GoGoGo。
+注册市场后，使用者可以重启 Codex 桌面应用，在 Plugins Directory 中选择 SkillBureau 并安装。安装完成后，新建对话，Codex 才会加载插件内的 shopping-selection 和 GoGoGo。
 
 官方文档支持 GitHub shorthand，HTTPS Git URL 和 SSH Git URL。仓库的访问权限由 GitHub 和 Git 凭据控制。
