@@ -6,13 +6,13 @@
     "name": "SkillBureau contributors"
   },
   "license": "Apache-2.0",
-  "repository": "https://github.com/1461985679/SkillBureau",
+  "repository": "https://github.com/1461985679/SB",
   "keywords": ["Codex", "skills", "shopping", "GoGoGo"],
   "skills": "./skills/",
   "interface": {
     "displayName": "SkillBureau",
     "shortDescription": "商品选购和 GoGoGo 协作技能",
-    "longDescription": "SkillBureau packages shopping-selection and GoGoGo as a private Codex marketplace plugin.",
+    "longDescription": "SkillBureau packages shopping-selection and GoGoGo as a public Codex marketplace plugin.",
     "developerName": "SkillBureau contributors",
     "category": "Productivity",
     "capabilities": ["Read", "Write", "Interactive"],
