@@ -35,7 +35,7 @@
 | cross_platform_key | 跨平台同型号合并键 |
 | duplicate_of | 重复记录指向的主记录编号 |
 | observed_price | 抓取时页面价格 |
-| price_conditions | 券、会员、地区、账号、运费和组合条件 |
+| price_conditions | 券、会员资格、地区、运费和组合条件，不包含账号标识或登录凭据 |
 | usable_quantity | 可比较的总数量 |
 | unit_price | 统一单位价格和计算式 |
 | hard_pass | 是否满足全部硬条件 |
