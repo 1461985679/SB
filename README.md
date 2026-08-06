@@ -1,6 +1,8 @@
 # S<sub>kill</sub>B<sub>ureau</sub>
 
-SkillBureau，简称 SB，是一个用于集中保存个人 Codex 技能的私有 GitHub 插件市场。
+Not Son of Bitch，Not Sha Bi，But Skill Bureau。
+
+SkillBureau，简称 SB，是一个面向个人 Codex 技能的 GitHub 技能市场仓库。项目将可复用技能按插件和技能目录组织，提供安装清单，许可证说明，第三方声明，以及本地验证和市场索引。当前收录 shopping-selection，Go³ 和 karpathy-guidelines。
 
 ## 技能
 
@@ -13,7 +15,7 @@ SkillBureau，简称 SB，是一个用于集中保存个人 Codex 技能的私�
 ## 目录
 
 ```text
-SkillBureau
+SB
 ├── .agents/plugins/marketplace.json
 ├── plugins/skillbureau
 │   ├── .codex-plugin/plugin.json
@@ -46,15 +48,15 @@ foreach ($skillName in $skillNames) {
 
 `third-party/karpathy-guidelines` 是 MIT 许可的第三方内容，完整归属信息与许可边界见 `THIRD_PARTY_NOTICES.md` 和 `LICENSES/karpathy-guidelines-MIT.txt`。
 
-## 私有市场安装
+## 市场安装
 
-GitHub 私有仓库不会进入公共插件目录。圣上需要先在本机完成 GitHub 访问认证，再使用 Codex CLI 注册市场。
+圣上需要先在本机完成 GitHub 访问认证，再使用 Codex CLI 注册市场。
 
 ```powershell
-codex plugin marketplace add 1461985679/SkillBureau --ref main
+codex plugin marketplace add 1461985679/SB --ref main
 codex plugin marketplace list
 ```
 
 注册市场后，圣上可以重启 Codex 桌面应用，在 Plugins Directory 中选择 SkillBureau 并安装。安装完成后，新建对话，Codex 才会加载插件内的 shopping-selection 和 GoGoGo。
 
-官方文档支持 GitHub shorthand，HTTPS Git URL 和 SSH Git URL。私有仓库的访问权限由 GitHub 和 Git 凭据控制，Codex 不会把私有市场自动变成公共插件。
+官方文档支持 GitHub shorthand，HTTPS Git URL 和 SSH Git URL。仓库的访问权限由 GitHub 和 Git 凭据控制。
