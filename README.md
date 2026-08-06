@@ -2,7 +2,7 @@
 
 Not Son of Bitch，Not Sha Bi，But Skill Bureau。
 
-SkillBureau，简称 SB，是一个面向个人 Codex 技能的 GitHub 技能市场仓库。项目将可复用技能按插件和技能目录组织，提供安装清单，许可证说明，第三方声明，以及本地验证和市场索引。当前收录 shopping-selection，Go³ 和 karpathy-guidelines。
+SkillBureau，简称 SB，是一个面向个人 Codex 技能的 GitHub 技能市场仓库。项目将可复用技能按插件和技能目录组织，提供安装清单，许可证说明，以及本地验证和市场索引。当前收录 shopping-selection 和 Go³。
 
 ## 技能
 
@@ -10,7 +10,6 @@ SkillBureau，简称 SB，是一个面向个人 Codex 技能的 GitHub 技能市
 |---|---|---|
 | `shopping-selection` | 系统化完成商品选购，比价，质量评估和证据归档 | Apache License 2.0 |
 | `Go³` | 组织主代理与 Luna 的多模型协作，审核差异和中间产物 | Apache License 2.0 |
-| `karpathy-guidelines` | 随库保存的第三方编码行为准则 | MIT |
 
 ## 目录
 
@@ -22,10 +21,8 @@ SB
 │   └── skills
 │       ├── shopping-selection
 │       └── GoGoGo
-├── third-party/karpathy-guidelines
 ├── LICENSE
 ├── NOTICE
-├── THIRD_PARTY_NOTICES.md
 └── README.md
 ```
 
@@ -44,9 +41,7 @@ foreach ($skillName in $skillNames) {
 
 ## 许可证
 
-除第三方内容外，本仓库使用 Apache License 2.0，完整条款见 `LICENSE`。
-
-`third-party/karpathy-guidelines` 是 MIT 许可的第三方内容，完整归属信息与许可边界见 `THIRD_PARTY_NOTICES.md` 和 `LICENSES/karpathy-guidelines-MIT.txt`。
+本仓库使用 Apache License 2.0，完整条款见 `LICENSE`。
 
 ## 市场安装
 
